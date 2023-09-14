@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Панель цен</title>
+  <link rel="stylesheet" href="./css/uikit.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <meta name="theme-color" content="#191919" />
+  <link type="Image/x-icon" href="./favicon.png" rel="icon">
+</head>
+<body>
+  <div class="uk-container">
+    <table class="main-table uk-table uk-table-hover uk-table-divider uk-text-center">
+      <thead>
+          <tr>
+              <th>index</th>
+              <th>symbol</th>
+              <th>price coin</th>
+              <th>BTC</th>
+              <th>percent</th>
+          </tr>
+      </thead>
+      <tbody id="body-tabl">
+        <tr>
+          <td class="table-number">0</td>
+          <td class="pointer table-text">RUNEUSDT</td>
+          <td class="pointer table-number">
+            <span class="pointer table-other-num">80 %</span>
+            0.75
+            <span class="pointer table-other-num">15000 USDT</span>
+          </td>
+
+          <td class="pointer table-number">
+            <span class="pointer table-other-num">20 %</span>
+            25930.75
+            <span class="pointer table-other-num">7000 USDT</span>
+          </td>
+          <td class="table-number">0 %</td>
+        </tr>
+        
+        <tr>
+          <td class="table-number">1</td>
+          <td class="pointer table-text">PSGUSDT</td>
+          <td class="pointer table-number">
+            <span class="pointer table-other-num">80 %</span>
+            0.75
+            <span class="pointer table-other-num">15000 USDT</span>
+          </td>
+          <td class="pointer table-number">
+            <span class="pointer table-other-num">20 %</span>
+            25930.75
+            <span class="pointer table-other-num">7000 USDT</span>
+          </td>
+          <td class="table-number">0 %</td>
+        </tr>
+      </tbody>
+  </table>
+  <div id="banner"></div>
+  </div>
+
+  <script src="./js/uikit.min.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+</html>

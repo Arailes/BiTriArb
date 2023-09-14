@@ -1,0 +1,25 @@
+{
+  "name": "intraexchangespread",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "pm2 start ecosystem.config.js",
+    "kill": "pm2 delete TriangularTrade",
+    "dev": "node app.js",
+    "test:req": "node tests/Trading/Requests.test.js",
+    "test:stream": "node tests/Trading/UserStream.test.js",
+    "test:chain": "node tests/Trading/Сhain.test.js",
+    "test:order": "node tests/Trading/Orders.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@fastify/static": "^6.10.2",
+    "axios": "^1.4.0",
+    "fastify": "^4.21.0",
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0"
+  }
+}
