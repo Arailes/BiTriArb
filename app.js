@@ -2,7 +2,6 @@ const constructTriangles = require('./src/Triangles')
 const Stream = require('./src/Streams')
 const AutomaticTrading = require('./src/AutomaticTrading')
 const exchangeInfo = require('./src/ExchangeInfo')
-
 const wsServer = require('./src/WsServer')
 const httpServer = require('./src/HttpServer')
 const { testMessage } = require('./src/TestMessage')
